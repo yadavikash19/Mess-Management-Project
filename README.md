@@ -7,7 +7,7 @@
 
 ## 🧱 PROBLEM STATEMENT
 
-**D3H05**
+**DC121**
 
 This project is a smart mess management system designed to eliminate the hassle of traditional paper coupons by offering a centralized digital platform for both mess admins and students. Mess owners get access to a dedicated admin panel where they can manage weekly menus, edit meal timings, adjust pricing, and view the total number of meals to be prepared. They can also verify student meals by scanning unique QR codes and accept payments securely through Razorpay integration. On the other hand, students can view the complete meal schedule, decide and purchase their preferred meals online, and use a single QR code for meal redemption. The system is being enhanced with machine learning to help reduce food wastage by predicting meal demands.
 
