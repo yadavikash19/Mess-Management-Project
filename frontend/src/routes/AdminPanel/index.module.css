@@ -1,0 +1,112 @@
+/* Admin Panel - Clean & Professional */
+
+.card {
+    margin: 1rem auto;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.card h1 {
+    text-align: center;
+    margin: 0 0 1.5rem 0;
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.adminBody {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.adminBody:nth-last-of-type(n+2) {
+    margin-bottom: 1.5rem;
+}
+
+.table {
+    margin: 1rem 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table:first-of-type {
+    margin-top: 0;
+}
+
+.table:last-of-type {
+    margin-bottom: 0;
+}
+
+.table th,
+.table td {
+    border: 1px solid #e0e0e0;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-size: 0.95rem;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.table tr:nth-child(even) {
+    background-color: #fdfdfd;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.buttons button {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #0b5ed7;
+}
+
+.userList {
+    max-height: 200px;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+    margin-top: 1rem;
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+}
+
+.userList::-webkit-scrollbar {
+    width: 6px;
+}
+
+.userList::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.userListIndex {
+    font-weight: 500;
+    width: 2rem;
+    display: inline-block;
+    text-align: center;
+    padding-right: 0.9rem;
+    margin-right: 0.8rem;
+    border-right: 1px solid #e0e0e0;
+    color: #555;
+}
